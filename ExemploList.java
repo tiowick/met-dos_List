@@ -54,12 +54,13 @@ public class ExemploList {
         System.out.println("Exibindo a terceira nota adicionada: " + notas.get(2)); // procurando a posição e exibindo a nota da determinada posição
         System.out.println(notas.toString());
 
-        System.out.println("Exibindo a menor nota: " + Collections.min(notas)); // Exibindo a menor nota com o "Collections.min" ele faz a comparação de tamanho ( onde vai ser procurado " notas ")
-
-        System.out.println("Exibindo a maior nota: " + Collections.max(notas)); // Exibindo a maior nota com o "Collections.max" ele faz a comparação de tamanho ( onde vai ser procurado " notas ")
-
+        System.out.println("Exibindo a menor nota: " + Collections.min(notas)); 
+        // Exibindo a menor nota com o "Collections.min" ele faz a comparação de tamanho ( onde vai ser procurado " notas ")
+        
+        System.out.println("Exibindo a maior nota: " + Collections.max(notas));
+         // Exibindo a maior nota com o "Collections.max" ele faz a comparação de tamanho ( onde vai ser procurado " notas ")
+            
         // para fazer a soma de dentro da lista deve-se chamar o metodo iterator, e interando dentro da lista
-
         Iterator<Double> iterator = notas.iterator();   // criando a variavel iterator com o mouse em cima de (notas)  e apertando "Ctrl + alt + V "
         double soma = 0d; // variavel onde vai ser armazenado a soma
         // laço de repetição que vai pergutando se tem "próximo"
@@ -72,10 +73,12 @@ public class ExemploList {
         System.out.println("Exibindo a soma dos valores: " + soma);
 
         // A media é soma de tudo dividido pela quantidade de elementos que tenho na minha lista
-        System.out.println("Exibindo a média das notas: " + soma/notas.size()); // metodo "size" vai retornar int, vai medar quantidade de elementos que eu tenho na lista
+         // metodo "size" vai retornar int, vai medar quantidade de elementos que eu tenho na lista
+        System.out.println("Exibindo a média das notas: " + soma/notas.size());
 
         System.out.println("Removendo a nota 0: ");
-        notas.remove(0d); // podendo passar tanto o objeto quanto a posição, lembrando de que é o objeto é double, se não fica int, e vai remover da posição 0
+        notas.remove(0d);
+         // podendo passar tanto o objeto quanto a posição, lembrando de que é o objeto é double, se não fica int, e vai remover da posição 0
         System.out.println(notas);
 
         System.out.println("Removendo a nota da posição 0: ");
