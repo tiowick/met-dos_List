@@ -6,21 +6,6 @@ import java.util.*;
 public class ExemploList {
     public static void main(String[] args) {
 
-        //List notas = new ArrayList(); //antes do java 5
-        //List<Double> notas = new ArrayList<>(); //Generics (jdk 5) - Diamonte operator(jdk 7)
-        //ArrayList<Double> notas = new ArrayList<>(); // instanciar a variavel com a implementação;
-        // --- instanciar a ArrayList , passando dentro o argumento "(Arrays.asList)" os elementos que que for adicionar no ArrayList
-        //List<Double> notas = new ArrayList<>(Arrays.asList(7d, 8.5, 9.3, 5d, 7d, 0d, 3.6));
-       /* List<Double> notas = Arrays.asList(7d, 8.5, 9.3, 5d, 7d, 0d, 3.6); // Passando direto pra dentro da List o "Arrays.asList"
-        notas.add(10d);
-        System.out.println(notas);
-        //imultavel
-        */
-
-        /*List<Double> notas = List.of(7d, 8.5, 9.3, 5d, 7d, 0d, 3.6); // imultavel
-        notas.add(1d);
-        notas.remove(5d);
-        System.out.println(notas);*/
 
         System.out.println("Criando uma lista e adicione as 7 notas: ");
         List<Double> notas = new ArrayList<>(); //Generics (jdk 5) - Diamonte operator(jdk 7)
